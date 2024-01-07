@@ -5,7 +5,7 @@ public class PayMain {
 
         PayService payService = new PayService();
 
-        // kakao 결제
+        // kakao 결제 
         String payOption1 = "kakao";
         int amount1 = 10000;
         payService.processPay(payOption1, amount1);
